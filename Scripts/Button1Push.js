@@ -1,10 +1,9 @@
 ﻿#pragma strict
 
+// Activates existing gameObjects that were not active.
 
 public var button1GameObject : GameObject; // gameObject activated from clicking button1
 private var buttonActivate1 : boolean = false; // determines whether button1 is activated
-
-
 
 function Start () {
 
