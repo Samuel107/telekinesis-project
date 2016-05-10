@@ -1,2 +1,2 @@
-# telekinesis-project
+# Telekinesis-Project
 Unity VR Application
