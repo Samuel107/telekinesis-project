@@ -65,7 +65,7 @@ The main goal of this project is to properly implement working VR aspects into a
 -
 The next stage is to use these VR aspects to create something with it, we will split off into two ideas: 
 -
-#####Game:
+####Game:
 -
 Catching game: Objects being thrown at you, do not let it touch ground until caught.
 -
