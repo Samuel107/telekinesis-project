@@ -20,19 +20,14 @@ Dome/Outdoors Area
 	
 Google Cardboard: Manipulating objects with button on headset.
 
-Movement: Hold down move with button or point and travel style
+Headset Movement: Hold down move with button or point and travel style?
 
-Head Tracking Headset (Any preferred? I do not mind any of the headsets, though I would want to work with something better than the Google cardboard)
-
-Controllers with movement tracking with them, use them as arms? (Professor said most like the Razer Hydra controllers will be available to us).
-I think if we do use controllers we should also make head tracking available where the button on the side would act as the grab button and the crosshairs would be in the center of where you are looking. Only downside is that you can’t move. Maybe we do this first and if we feel we have time for the controllers and it wouldn’t be too difficult we can go ahead and implement those too. Then we could make it an option on the menu of whether you want to use controllers or not. We could use Gear VR, I think we would have access to one. 
-Yeah that makes sense. Let’s do the headtracking crosshair first with the grab button. It seems easier too. If we have extra time, we can use controllers.
-
-Camera Movement (left right up down) with Controller? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)
+Controller Movement With Razer Hydra (left right up down)? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)
+	*Edit* Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
 
 Crosshair with headset or controllers (You point with controller to an object to manipulate or look at something to manipulate it)
 
-Shooting Ability with button input on controller? (Launches object forward at high velocity)
+Shooting Ability with button input on controller or headset? (Launches object forward at high velocity)
 
 #### Environment:
 Lighting:
