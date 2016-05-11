@@ -59,7 +59,7 @@ Background Music: Goes with whatever theme is, simple background music, differen
 
 Sound Effects: Grabbing objects, Objects hitting walls.
 
-#### Goal:
+### Goal:
 The main goal of this project is to properly implement working VR aspects into a program.
 
 The next stage is to use these VR aspects to create something with it, we will split off into two ideas: 
