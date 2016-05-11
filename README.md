@@ -3,17 +3,17 @@ Unity Google Cardboard VR Application
 
 A classmate and I decided to work on creating a virtualy reality application for androids and iphones. I will be posting my Javascript here that I create, along with a short screenshot video to demonstrate the script in Unity. Our goal is to create many simple scripts with the Google Cardboard magnet input we are given. We will be using the prefabs CardboardMain for headset motion tracking and CardboardReticle for crosshairs/gameObject selection.
 
-### Software Using: 
+#### Software Using: 
 	Unity3D 5.3.1, 3D Modeling Program (Blender, 3ds max, etc)
 
-### Title of Project: 
+#### Title of Project: 
 Nutmeg (Working Title)
 Telekinesis something maybe?
 
-### Theme of Room:
+#### Theme of Room:
 Dome/Outdoors Area 
 
-### Controls / Inputs :
+#### Controls / Inputs :
 	
 Google Cardboard: Manipulating objects with button on headset.
 
@@ -31,7 +31,7 @@ Crosshair with headset or controllers (You point with controller to an object to
 
 Shooting Ability with button input on controller? (Launches object forward at high velocity)
 
-### Environment:
+#### Environment:
 Lighting:
 Ceiling Lights, Plain White Color
 Maybe Red Dim Lights on Walls in Pattern
@@ -60,14 +60,14 @@ Do we want to go into depth working with the object’s material? (I suck with m
 When manipulating object (moving, have control), have particle effect on object?       (a glow to the object)
     
     
-### Sounds:
+#### Sounds:
 Background Music: Goes with whatever theme is, simple background music.
 
 Sound Effects: 
 Grabbing objects 
 Objects hitting walls 
 
-### Goal:
+#### Goal:
 
 The main goal of this project is to properly implement working VR aspects into a program.
 
