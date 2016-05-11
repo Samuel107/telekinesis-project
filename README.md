@@ -16,16 +16,16 @@ Telekinesis something maybe?
 #### Theme of Room:
 Dome/Outdoors Area 
 
-#### Controls / Inputs :
+#### Controls / Inputs:
 	
 Google Cardboard: Manipulating objects with button on headset.
--
+
 Headset Movement: Hold down move with button or point and travel style?
 
 Controller Movement With Razer Hydra (left right up down)? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	*Edit* Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
--
+
 Crosshair with headset or controllers (You point with controller to an object to manipulate or look at something to manipulate it)
--
+
 Shooting Ability with button input on controller or headset? (Launches object forward at high velocity)
 
 #### Environment:
