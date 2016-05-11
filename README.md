@@ -59,9 +59,8 @@ Background Music: Goes with whatever theme is, simple background music, differen
 
 Sound Effects: Grabbing objects, Objects hitting walls.
 
--
-
 ## Goal:
+
 The main goal of this project is to properly implement working VR aspects into a program.
 
 The next stage is to use these VR aspects to create something with it, we will split off into two ideas: 
@@ -72,10 +71,10 @@ Catching game: Objects being thrown at you, do not let it touch ground until cau
 
 Building game: Build structures with the given objects, more of a interaction game.
 
-Throwing objects at targets for points.
+Throwing game: Throw objects at targets for points.
 
 ####Networking:
 
-Add another headset user through another computer/iphone with internet/wifi networking. I think it would be awesome but I believe it would be a lot of work. (I done through this a unity project with a youtube tutorial, but it was a long time ago and was limited.)
+Add another headset user through another computer/iphone with networking. I think it would be awesome, though I'm not sure how to go about it.
 
 If we do get networking successfully, we can think of many new ideas like two people working together to get out of this dome. Or two people working together in two different rooms. 
