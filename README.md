@@ -31,11 +31,11 @@ Shooting Ability with button input on controller or headset? (Launches object fo
 #### Environment:
 
 Lighting (If Inside): Ceiling Lights, Plain White Color. Maybe Red Dim Lights on Walls in Pattern.
--
+
 Textured Walls and Floors - going off by theme
--
+
 Objects Floating Around: Start with gravity, Click button 
--
+
 List Of Random Objects We Can Put In: 
 	Bowling Ball,
 	Lamp,
@@ -47,9 +47,9 @@ List Of Random Objects We Can Put In:
 	Fruits/Food (Apple, Banana, Oranges),
 	(Add anything else you can think of),
 	Manakin.
--
+
 Zero-gravity objects, originally follows animated path until manipulated?
--
+
 When manipulating object (moving, have control), have particle effect on object? (a glow to the object)
     
     
