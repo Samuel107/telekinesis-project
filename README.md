@@ -11,10 +11,10 @@ Unity3D 5.3.1, 3D Modeling Program (Blender, 3ds max, etc)
 
 #### Title of Project: 
 Nutmeg (Working Title) ||
-Telekinesis something maybe?
+Telekinesis something.
 
 #### Theme of Room:
-Dome/Outdoors Area 
+Simple Dome Room or Outdoors Area.
 
 #### Controls / Inputs:
 	
@@ -22,7 +22,7 @@ Google Cardboard: Manipulating objects with button on headset.
 
 Headset Movement: Hold down move with button or point and travel style?
 
-Controller Movement With Razer Hydra (left right up down)? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	*Edit* Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
+Controller Movement With Razer Hydra (left right up down)? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	** Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
 
 Crosshair with headset or controllers (You point with controller to an object to manipulate or look at something to manipulate it)
 
@@ -61,12 +61,12 @@ Sound Effects: Grabbing objects, Objects hitting walls.
 
 -
 
-### Goal:
+## Goal:
 The main goal of this project is to properly implement working VR aspects into a program.
 
 The next stage is to use these VR aspects to create something with it, we will split off into two ideas: 
 
-#####Game:
+####Game:
 
 Catching game: Objects being thrown at you, do not let it touch ground until caught.
 
@@ -74,7 +74,7 @@ Building game: Build structures with the given objects, more of a interaction ga
 
 Throwing objects at targets for points.
 
-#####Networking:
+####Networking:
 
 Add another headset user through another computer/iphone with internet/wifi networking. I think it would be awesome but I believe it would be a lot of work. (I done through this a unity project with a youtube tutorial, but it was a long time ago and was limited.)
 
