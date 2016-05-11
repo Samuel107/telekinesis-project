@@ -10,7 +10,7 @@ A classmate and I decided to work on creating a virtualy reality application for
 	Unity3D 5.3.1, 3D Modeling Program (Blender, 3ds max, etc)
 
 #### Title of Project: 
-Nutmeg (Working Title)
+Nutmeg (Working Title) ||
 Telekinesis something maybe?
 
 #### Theme of Room:
@@ -30,14 +30,18 @@ Crosshair with headset or controllers (You point with controller to an object to
 Shooting Ability with button input on controller or headset? (Launches object forward at high velocity)
 
 #### Environment:
-Lighting:
-Ceiling Lights, Plain White Color
-Maybe Red Dim Lights on Walls in Pattern
+
+Lighting (If Inside):
+
+Ceiling Lights, Plain White Color 
+
+Maybe Red Dim Lights on Walls in Pattern 
 
 Inside Box Room 
 Textured Walls and Floors - going off by theme
 
-Objects Floating Around: Start with gravity, click button 
+Objects Floating Around: Start with gravity, Click button 
+
 List Of Random Objects We Can Put In: 
 Bowling Ball
 Lamp
@@ -52,13 +56,11 @@ Manakin
 
 Zero-gravity objects, originally follows animated path until manipulated?
 
-Do we want to go into depth working with the object’s material? (I suck with material work, only know basics like shineness/roughness)
-		Yeah I am really bad at materials too. We should import materials or not worry about them at the moment.
-
-When manipulating object (moving, have control), have particle effect on object?       (a glow to the object)
+When manipulating object (moving, have control), have particle effect on object? (a glow to the object)
     
     
 #### Sounds:
+
 Background Music: Goes with whatever theme is, simple background music.
 
 Sound Effects: 
@@ -66,7 +68,6 @@ Grabbing objects
 Objects hitting walls 
 
 #### Goal:
-
 The main goal of this project is to properly implement working VR aspects into a program.
 
 The next stage is to use these VR aspects to create something with it, we will split off into two ideas: 
