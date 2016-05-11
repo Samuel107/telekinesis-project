@@ -40,22 +40,26 @@ Maybe Red Dim Lights on Walls in Pattern
 Inside Box Room 
 Textured Walls and Floors - going off by theme
 
+-
 Objects Floating Around: Start with gravity, Click button 
 
+-
 List Of Random Objects We Can Put In: 
-Bowling Ball
-Lamp
-Chairs
-Table
-Tire
-Shoes
-Pictures
-Fruits/Food (Apple, Banana, Oranges)
-(Add anything else you can think of)
+Bowling Ball,
+Lamp,
+Chairs,
+Table,
+Tire,
+Shoes,
+Pictures,
+Fruits/Food (Apple, Banana, Oranges),
+(Add anything else you can think of),
 Manakin
 
+-
 Zero-gravity objects, originally follows animated path until manipulated?
 
+-
 When manipulating object (moving, have control), have particle effect on object? (a glow to the object)
     
     
