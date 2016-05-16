@@ -29,7 +29,7 @@ private var endTime : float = 0f; // time of second trigger click
 
 function Start () {
 	mainCamera = GameObject.Find("Main Camera"); // looks for Main Camera gameobject
-	vrPlayer = GameObject.Find("VR Player"); // looks for Main Camera gameobject
+	vrPlayer = GameObject.Find("VR Player"); // looks for VR Player gameobject
 	time = 0f; // starting time
 }
 
