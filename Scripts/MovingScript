@@ -1,7 +1,7 @@
 #pragma strict
 
 /*
-	Movement Script: Moves camera forward. 
+	Movement Script: Moves camera forward when Point click happens twice (pull button down twice).
 
 	If you are having problem with Unknown Identifier: "Cardboard", check this link below.
 	Javascript is complied before C# and since Google Cardboard scripts are C#, you need to move your cardboard scripts 
