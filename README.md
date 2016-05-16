@@ -63,18 +63,4 @@ Sound Effects: Grabbing objects, Objects hitting walls.
 
 The main goal of this project is to properly implement working VR aspects into a program.
 
-The next stage is to use these VR aspects to create something with it, we will split off into two ideas: 
-
-####Game:
-
-Catching game: Objects being thrown at you, do not let it touch ground until caught.
-
-Building game: Build structures with the given objects, more of a interaction game.
-
-Throwing game: Throw objects at targets for points.
-
-####Networking:
-
-Add another headset user through another computer/iphone with networking. I think it would be awesome, though I'm not sure how to go about it.
-
-If we do get networking successfully, we can think of many new ideas like two people working together to get out of this dome. Or two people working together in two different rooms. 
+The next stage is to use these VR aspects to create something. This will be another project in the future. 
