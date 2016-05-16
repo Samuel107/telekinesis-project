@@ -69,6 +69,7 @@ function Update () {
 	}
 	
 	if (isWalking) {
+		vrPlayer.transform.position.y = ycord; // freezes y cord
 		vrPlayer.transform.Translate( mainCamera.transform.forward * Time.deltaTime * walkSpeed); // grabs camera.forward * time * walkSpeed (how fast you want to go)
 	}
 }
