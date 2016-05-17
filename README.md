@@ -14,10 +14,10 @@ If anyone would like further explanation or have questions on how I used these s
 Unity3D 5.3.1/5.3.3, 3D Modeling Program (For Quick Editting)
 
 #### Title of Project: 
-Fabulous Nutmeg
+Fabulous Nutmeg (Working Title).
 
 #### Theme of Room:
-Simple Outdoor Area.
+Outdoor Playground Area.
 
 #### Controls / Inputs:
 	
@@ -31,20 +31,20 @@ Shooting Ability with button input: Launches object forward at high velocity
 
 ###### Future Ideas:
 
-Controller Movement With Razer Hydra? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	** Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
+Controller Movement With Razer Hydra? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	**Ask a fellow colleague about it. Motion tracking with Razor Hydra isn't completely accurate he said, which is important with precisely manipulating game objects. Probably will stick with just headset.
 
-If access to controller movement, have crosshair (raycaster) be put on controllers? So now you must point your controller to manipulate GameObjects.
-
+If access to tracking controller movement for arms, have crosshair (raycaster) be put on controllers. So now you must point your controller to manipulate GameObjects.
 
 #### Environment:
 
-Lighting (If Inside): Ceiling Lights, Plain White Color. Maybe Red Dim Lights on Walls in Pattern.
+Lighting: Sun, maybe street lamps later in project.
 
-Textured Walls and Floors: going off by theme
+Textured Walls and Floors: Grass, woodchips, brick walls (Going off playground theme).
 
-Objects Floating Around: Gravity On/Off Switch
+Objects Floating Around: Gravity On/Off Switch for GameObjects that can be manipulated.
 
-List Of Random Objects I Can Put In: 
+List Of Random Objects To Be Put In (All of these will be from free Unity asset store): 
+	Whale,
 	Bowling Ball,
 	Lamp,
 	Chairs,
