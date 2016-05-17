@@ -1,40 +1,48 @@
 # Telekinesis-Project
 Unity Google Cardboard VR Application
 
-A classmate and I decided to work on creating a virtualy reality application for androids and iphones. I will be posting my Javascript here that I create, along with a short screenshot video to demonstrate the script in Unity. Our goal is to create many simple scripts with the Google Cardboard magnet input we are given. We will be using the prefabs CardboardMain for headset motion tracking and CardboardReticle for crosshairs/gameObject selection.
+A classmate and I decided to work on creating a virtualy reality application for androids and iphones. I will be posting my Javascript here that I create, along with a short screenshot video to demonstrate the script in Unity. Our goal is to create many simple, understandable scripts that works with the Google Cardboard magnet input we are given. We will be using the prefabs CardboardMain for headset motion tracking and CardboardReticle for crosshairs/gameObject selection.
+
+If anyone would like further explanation or questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. There will be a simple project layout below explaining most of what we will do. 
 
 ## Project Layout
 
 
 #### Software Using: 
-Unity3D 5.3.1, 3D Modeling Program (Blender, 3ds max, etc)
+Unity3D 5.3.1/5.3.3, 3D Modeling Program (For Quick Editting)
 
 #### Title of Project: 
-Nutmeg (Working Title) ||
-Telekinesis something.
+Nutmeg (Working Title) || Telekinesis something.
 
 #### Theme of Room:
 Simple Dome Room or Outdoors Area.
 
 #### Controls / Inputs:
 	
-Google Cardboard: Manipulating objects with button on headset.
+Google Cardboard: Manipulating objects with single button click on headset.
 
-Headset Movement: Hold down move with button or point and travel style?
+Headset Movement: Two quick button clicks
 
-Controller Movement With Razer Hydra (left right up down)? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	** Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
+Crosshair with headset: wherever you look, crosshair follows with center of headset camera
 
-Crosshair with headset or controllers (You point with controller to an object to manipulate or look at something to manipulate it)
+Shooting Ability with button input: Launches object forward at high velocity
 
-Shooting Ability with button input on controller or headset? (Launches object forward at high velocity)
+-
+
+Future Ideas:
+
+Controller Movement With Razer Hydra? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	** Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
+
+If access to controller movement, have crosshair (raycaster) be put on controllers? So now you must point your controller to pick something up.
+
 
 #### Environment:
 
 Lighting (If Inside): Ceiling Lights, Plain White Color. Maybe Red Dim Lights on Walls in Pattern.
 
-Textured Walls and Floors - going off by theme
+Textured Walls and Floors: going off by theme
 
-Objects Floating Around: Start with gravity, Click button 
+Objects Floating Around: Gravity On/Off Switch
 
 List Of Random Objects We Can Put In: 
 	Bowling Ball,
@@ -48,9 +56,7 @@ List Of Random Objects We Can Put In:
 	(Add anything else you can think of),
 	Manakin.
 
-Zero-gravity objects, originally follows animated path until manipulated?
-
-When manipulating object (moving, have control), have particle effect on object? (a glow to the object)
+When manipulating object (moving, have control), have particle effect or glow on object
     
     
 #### Sounds:
