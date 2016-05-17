@@ -1,7 +1,14 @@
+
+// Gives option to pick up and throw objects. Apply script to gameObject with a Event Trigger component.
+
+// public
 public var throwPower : float = 1000f; // how much force you want to add to your throw
 public var thecamera : GameObject; // drag camera gameobject into this variable
-private var holdingObject : GameObject; // remembers gameObject after using input
 public var distanceFromCamera : int = 5; // bigger gameObjects will need a greater distanceFromCamera
+
+// private
+private var holdingObject : GameObject; // remembers gameObject after using input
+
 
 function Start () {
 
