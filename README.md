@@ -11,7 +11,7 @@ If anyone would like further explanation or have questions on how I used these s
 ## Project Layout
 
 #### Software Using: 
-Unity3D 5.3.1/5.3.3, 3D Modeling Program (For Quick Editting)
+Unity3D 5.3.1/5.3.3, Blender3D Modeling (For Quick Editting)
 
 #### Title of Project: 
 Fabulous Nutmeg (Working Title).
