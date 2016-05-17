@@ -13,5 +13,5 @@ function Update () {
 }
 
 function resetTheScene() {
-	ls.LoadScene("newRoom"); // restarts scene ("newRoom" is our scene name)
+	ls.LoadScene("newRoom"); // restarts scene ("newRoom" is my scene name)
 }
