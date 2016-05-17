@@ -1,7 +1,9 @@
 ﻿#pragma strict
 
-// Activates existing gameObjects that were not active. Note that the gameObjects were never SetActive(true) at start, 
-// so make sure to have your gameObjects set to false (not activated/displayed)
+// Activates existing gameObjects that were not active. 
+
+// ** Note that the gameObjects were never SetActive(true) at start, 
+//    so make sure to have your gameObjects set to false (not activated/displayed)
 
 public var button1GameObject : GameObject; // gameObject activated from activating button1, assign what gameObjects you want to setActive.
 private var buttonActivate1 : boolean = false; // determines whether button1 (we created a gameObject that acted like a button) is activated
