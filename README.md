@@ -3,7 +3,7 @@ Unity Google Cardboard VR Application
 
 A classmate and I decided to work on creating a virtualy reality application for androids and iphones. I will be posting my Javascript here that I create, along with a short screenshot video to demonstrate the script in Unity. Our goal is to create many simple, understandable scripts that works with the Google Cardboard magnet input we are given. We will be using the prefabs CardboardMain for headset motion tracking and CardboardReticle for crosshairs/gameObject selection.
 
-If anyone would like further explanation or questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. There will be a simple project layout below explaining most of what we will do. 
+If anyone would like further explanation or ask questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. There will be a simple project layout below explaining most of what we will do. 
 
 ## Project Layout
 
