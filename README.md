@@ -8,7 +8,7 @@ https://developers.google.com/cardboard/unity/download
 
 If anyone would like further explanation or have questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. I am mostly a beginnerer to Javascript and Unity so please bear with my sloppy skills. 
 
-## Goal:
+## Goal
 
 The main goal of this project is to properly implement working VR aspects into a program. I am not focusing on visual aspects or 100% perfect audio. The main focus will be creating scripts that manipulating objects in different ways.
 
