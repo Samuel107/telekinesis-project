@@ -8,13 +8,6 @@
 	into place before Javascript becomes compilied.
 	http://docs.unity3d.com/Manual/ScriptCompileOrderFolders.html
 	For instance, I moved my cardboard folder into standard assets. Seem to work out fine.
-
-	*Notes*
-	Work On Audio, Doesn't Follow Camera (simple fix, out of time though)
-	Lock certain variables when moving (Don't go through ground, etc)
-	
-	*Problem*
-	Box Collider for Collision Makes Raycaster Off (Make camera not possible to move up or down)
 */
 
 // public
