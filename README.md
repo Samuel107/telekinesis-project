@@ -1,9 +1,9 @@
 # Telekinesis-Project
 Unity Google Cardboard VR Application
 
-A classmate and I decided to work on creating a virtualy reality application for androids and iphones. I will be posting my Javascript here that I create, along with a short screenshot video to demonstrate the script in Unity. Our goal is to create many simple, understandable scripts that works with the Google Cardboard magnet input we are given. We will be using the prefabs CardboardMain for headset motion tracking and CardboardReticle for crosshairs/gameObject selection.
+A classmate and I decided to start working on creating a virtualy reality application for androids and iphones. We presented our VR application in one of our IU Bloomington classes to demonstarte the uniqueness of virtual reality. This was alot of fun for me so I decided to keep working on the project in my spare time. I will be posting my Javascript here that I create, along with a short screenshot video to demonstrate the script in Unity. My goal is to create many simple, understandable scripts that works with the Google Cardboard magnet input I are given. I will be using the prefabs CardboardMain for headset motion tracking and CardboardReticle for crosshairs/gameObject selection. There is a few things that you need to set up before using these scripts which I will not go over, since that will take time. If you would like a copy of the unity project all working, contact me at the email below. 
 
-If anyone would like further explanation or ask questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. There will be a simple project layout below explaining most of what we will do. 
+If anyone would like further explanation or ask questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. There will be a simple project layout below explaining most of what I plan will do. 
 
 ## Project Layout
 
@@ -12,10 +12,10 @@ If anyone would like further explanation or ask questions on how I used these sc
 Unity3D 5.3.1/5.3.3, 3D Modeling Program (For Quick Editting)
 
 #### Title of Project: 
-Nutmeg (Working Title) || Telekinesis something.
+Fabulous Nutmeg
 
 #### Theme of Room:
-Simple Dome Room or Outdoors Area.
+Simple Outdoor Area.
 
 #### Controls / Inputs:
 	
@@ -44,7 +44,7 @@ Textured Walls and Floors: going off by theme
 
 Objects Floating Around: Gravity On/Off Switch
 
-List Of Random Objects We Can Put In: 
+List Of Random Objects I Can Put In: 
 	Bowling Ball,
 	Lamp,
 	Chairs,
