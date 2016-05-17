@@ -29,9 +29,7 @@ Crosshair with headset: wherever you look, crosshair follows with center of head
 
 Shooting Ability with button input: Launches object forward at high velocity
 
--
-
-Future Ideas:
+###### Future Ideas:
 
 Controller Movement With Razer Hydra? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	** Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
 
