@@ -6,7 +6,7 @@ A classmate and I decided to start working on creating a virtualy reality applic
 I recommend using Unity 5.3.1/5.3.3 with my scripts as other version will most likely cause errors. The Cardboard SDK for Unity I used is version 0.7.2 (or maybe 0.6.0, no clear cut answer). Note the Cardboard SDK requires Unity 5.2.1 or later on 5/17/2016. All testing is done on iPhone 5s.
 https://developers.google.com/cardboard/unity/download
 
-If anyone would like further explanation or have questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. I am mostly a beginnerer to Javascript and Unity so please bear with my sloppy skills. 
+If anyone would like further explanation or have questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. I am mostly a beginner to Javascript and Unity so please bear with my sloppy skills. 
 
 ## Goal
 
