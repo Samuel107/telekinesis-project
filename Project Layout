@@ -1,37 +1,40 @@
 ## Project Layout
 
-
 #### Software Using: 
-Unity3D 5.3.1, 3D Modeling Program (Blender, 3ds max, etc)
+Unity3D 5.3.1/5.3.3, Blender (For Quick Editting)
 
 #### Title of Project: 
-Nutmeg (Working Title) ||
-Telekinesis something.
+Fabulous Nutmeg (Working Title).
 
 #### Theme of Room:
-Simple Dome Room or Outdoors Area.
+Outdoor Playground Area.
 
 #### Controls / Inputs:
 	
-Google Cardboard: Manipulating objects with button on headset.
+Google Cardboard: Manipulating objects with single button click on headset.
 
-Headset Movement: Hold down move with button or point and travel style?
+Headset Movement: Two quick button clicks
 
-Controller Movement With Razer Hydra (left right up down)? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	** Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
+Crosshair with headset: wherever you look, crosshair follows with center of headset camera
 
-Crosshair with headset or controllers (You point with controller to an object to manipulate or look at something to manipulate it)
+Shooting Ability with button input: Launches object forward at high velocity
 
-Shooting Ability with button input on controller or headset? (Launches object forward at high velocity)
+###### Future Ideas:
+
+Controller Movement With Razer Hydra? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	**Ask a fellow colleague about it. Motion tracking with Razor Hydra isn't completely accurate he said, which is important with precisely manipulating game objects. Probably will stick with just headset.
+
+If access to tracking controller movement for arms, have crosshair (raycaster) be put on controllers. So now you must point your controller to manipulate GameObjects.
 
 #### Environment:
 
-Lighting (If Inside): Ceiling Lights, Plain White Color. Maybe Red Dim Lights on Walls in Pattern.
+Lighting: Sun, maybe street lamps later in project.
 
-Textured Walls and Floors - going off by theme
+Textured Walls and Floors: Grass, woodchips, brick walls (Going off playground theme).
 
-Objects Floating Around: Start with gravity, Click button 
+Objects Floating Around: Gravity On/Off Switch for GameObjects that can be manipulated.
 
-List Of Random Objects We Can Put In: 
+List Of Random Objects To Be Put In (All of these will be from free Unity asset store): 
+	Whale,
 	Bowling Ball,
 	Lamp,
 	Chairs,
@@ -43,9 +46,7 @@ List Of Random Objects We Can Put In:
 	(Add anything else you can think of),
 	Manakin.
 
-Zero-gravity objects, originally follows animated path until manipulated?
-
-When manipulating object (moving, have control), have particle effect on object? (a glow to the object)
+When manipulating object (moving, have control), have particle effect or glow on object
     
     
 #### Sounds:
@@ -58,4 +59,4 @@ Sound Effects: Grabbing objects, Objects hitting walls.
 
 The main goal of this project is to properly implement working VR aspects into a program.
 
-The next stage is to use these VR aspects to create a game, which will be another project.
+The next stage is to use these VR aspects to create something. This will be another project in the future.
