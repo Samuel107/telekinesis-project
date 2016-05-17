@@ -33,7 +33,7 @@ Shooting Ability with button input: Launches object forward at high velocity
 
 Controller Movement With Razer Hydra? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	** Motion Tracking Not Perfect With Razer Hydra. Probably will stick with just headset.
 
-If access to controller movement, have crosshair (raycaster) be put on controllers? So now you must point your controller to pick something up.
+If access to controller movement, have crosshair (raycaster) be put on controllers? So now you must point your controller to manipulate GameObjects.
 
 
 #### Environment:
