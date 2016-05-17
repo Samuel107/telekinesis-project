@@ -8,6 +8,12 @@ https://developers.google.com/cardboard/unity/download
 
 If anyone would like further explanation or have questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. I am mostly a beginnerer to Javascript and Unity so please bear with my sloppy skills. 
 
+## Goal:
+
+The main goal of this project is to properly implement working VR aspects into a program. I am not focusing on visual aspects or 100% perfect audio. The main focus will be creating scripts that manipulating objects in different ways.
+
+The next stage is to use these VR aspects to create something. This will be another project in the future.
+
 ## Project Layout
 
 #### Software Using: 
@@ -64,9 +70,3 @@ When manipulating object (moving, have control), have particle effect or glow on
 Background Music: Goes with whatever theme is, simple background music, different music for different situations.
 
 Sound Effects: Grabbing objects, Objects hitting walls.
-
-## Goal:
-
-The main goal of this project is to properly implement working VR aspects into a program. I am not focusing on visual aspects or 100% perfect audio. The main focus will be creating scripts that manipulating objects in different ways.
-
-The next stage is to use these VR aspects to create something. This will be another project in the future. 
