@@ -1,0 +1,73 @@
+#pragma strict
+
+// This script creates the ability to shoot out objects (objectFired)
+// You can customize the object to include cool effects like explosions on collision.
+
+/*
+	NOT FINISHED
+	I will most likely have to get rid of Event Trigger components and add onto previous scripts.
+	Need to find a way to disable trigger events in javascript.
+	
+	Notes:
+		I am start to get very limited with the single input, I am going to start turning off and on scripts for simple input use.
+		The scripts I turned off was moving script and pick up object script.
+*/
+
+
+// public/other
+public var objectFired : GameObject; // put in gameObject to shoot
+public var mainCamera : GameObject; // needs mainCamera transform (finds if null)
+public var cardboardMain : GameObject; // needs cardboardMain to stop movement (so you can rapid fire. finds if null)
+public var objectFiredSpeed : int = 5000; // objectFired speed
+public var throwPowerRemember : int = 1000; // had to manually put in throw power
+
+// private
+private var fireOn : boolean = false;
+// private var moveObjectScript : MoveObject;
+private var movingScript : MovingScript;
+
+function Start () {
+	if (mainCamera == null) {
+		mainCamera = GameObject.Find("Main Camera"); // finds Main Camera gameobject
+	}
+	if (cardboardMain == null) {
+		cardboardMain = GameObject.Find("CardboardMain"); // finds CardboardMain gameobjects
+	}
+}
+
+function Update () {
+	if (fireOn && Cardboard.SDK.Triggered == true) {
+		var object = Instantiate(objectFired, mainCamera.transform.position, mainCamera.transform.rotation);
+		object.GetComponent.<Rigidbody>().AddForce(object.transform.forward * objectFiredSpeed);
+	}
+}
+
+function FireAbility() {
+	if (fireOn == false) {
+		//Debug.Log("Button 5 On");
+		objectFired.SetActive(true);
+		for (var go : GameObject in GameObject.FindGameObjectsWithTag("abc")) { // turns off pick up and throwing ability
+			//go.GetComponent.<EventTrigger>().enabled = false;
+			//moveObjectScript = go.GetComponent(MoveObject);
+			//moveObjectScript.throwPower = 0;
+			//moveObjectScript.enabled = false;
+		}
+		movingScript = cardboardMain.GetComponent(MovingScript);
+		movingScript.enabled = false; // turns off moving script
+		GetComponent.<Renderer>().material.color = Color.green;
+		fireOn = true;
+	}
+	else {
+		//Debug.Log("Button 5 Off");
+		objectFired.SetActive(false);
+		for (var go : GameObject in GameObject.FindGameObjectsWithTag("abc")) { // turns on pick up and throw ability
+			//moveObjectScript = go.GetComponent(MoveObject);
+			//moveObjectScript.throwPower = throwPowerRemember;
+			//moveObjectScript.enabled = true;
+		}
+		movingScript = cardboardMain.GetComponent(MovingScript);
+		movingScript.enabled = true; // turns on moving script
+		GetComponent.<Renderer>().material.color = Color.red;
+		fireOn = false;
+	}
+}
