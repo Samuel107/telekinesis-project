@@ -45,9 +45,9 @@ InGame Control Panel: Allows More Possibilities, Use Cardboard Magnet Click Whil
 
 ###### Other Ideas:
 
-Controller Movement With Razer Hydra? (Like left controller stick input can move camera around, while right controller can be arm that can control objects?)	**Ask a fellow classmate about it. Motion tracking with Razor Hydra isn't completely accurate when he tried (first time he used them though). Probably will stick with just headset in this project.
+Controller Movement With Razer Hydra. *Edit* Asked a fellow classmate about it. Motion tracking with Razor Hydra isn't completely accurate when he tried creating with it (though it was his first time using it). Probably will stick with just headset in this project.
 
-If access to tracking controller movement for arms, have crosshair (raycaster) be put on one of the controller. Now you must point your controller to manipulate GameObjects.
+Have crosshair (raycaster) be put on one of the controller. Now you must point your controller to manipulate GameObjects.
 
 #### Environment:
 
