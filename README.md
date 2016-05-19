@@ -19,7 +19,7 @@ The next stage is to use these VR scripts as referrences to create a complete VR
 ## Project Layout
 
 #### Software Using: 
-Unity3D 5.3.1/5.3.3, Blender3D Modeling (For Quick Editting)
+Unity 5.3.3f1, Blender3D Modeling (For Quick Editting)
 
 #### Title of Project: 
 Fabulous Nutmeg (Working Title).
@@ -77,4 +77,4 @@ When Manipulating Object (Moving, Have Control), Have Particle Effect or Glow On
 
 Background Music: Simple music, though change in music for different situations.
 
-Sound Effects: Grabbing objects, Object collisions.
+Sound Effects: Grabbing Objects, Object Collisions.
