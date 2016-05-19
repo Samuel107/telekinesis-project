@@ -12,9 +12,9 @@ If anyone would like further explanation or have questions on how I used these s
 
 ## Goal
 
-The main goal of this project is to properly implement working VR aspects into a program. I am not focusing on visual aspects or 100% perfect audio. The main focus will be creating scripts that manipulating objects in different ways.
+The main goal of this project is to properly implement working VR aspects into a program. I am not focusing on visual aspects or 100% perfect audio. The main focus will be creating scripts that manipulating objects in different ways. Like a demo to show off the scripits.
 
-The next stage is to use these VR scripts to create a complete VR application with visual/audio/3D models at 100% complete and beautiful. This will be another project in the future. I am thinking of using a Oculus Rift to develop for it. Hopefully I can get my hands on one!
+The next stage is to use these VR scripts to create a complete VR application with visual/audio/functionality at 100% complete and beautiful. This will be another project in the future. I am thinking of using a Oculus Rift to develop for it. Hopefully I can get my hands on one! 
 
 ## Project Layout
 
