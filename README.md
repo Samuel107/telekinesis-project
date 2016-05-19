@@ -8,7 +8,8 @@ https://developers.google.com/cardboard/unity/download
 
 If anyone would like further explanation or have questions on how I used these scripts in Unity, go ahead and email me at selefthe@indiana.edu. If you would like a copy of the unity project working, have any ideas of what I should make, or any tips/tricks, LET ME KNOW! I especially like sharing/hearing ideas from people. I am mostly a beginner to Javascript, Unity, and first time using GitHub so please bear with my sloppy, unorthodox skills. 
 
-*Edit 5/19/2016* I am starting to become very limited with just a single input (cardboard magnit), so either I will make an ingame control panel with buttons (allowing more functions) or start making functions with gaze input with magnit input.
+*Edit 5/19/2016* 
+	I am starting to become very limited with just a single input (cardboard magnit), so either I will make an ingame control panel with buttons (allowing more functions) or start making functions with gaze input with magnit input.
 
 ## Goal
 
