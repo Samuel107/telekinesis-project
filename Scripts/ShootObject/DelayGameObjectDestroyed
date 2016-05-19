@@ -1,0 +1,21 @@
+#pragma strict
+
+// Destroy gameObject after certain amount of seconds (for objectFired), 
+// so you do not have a lot of objects lying around that you shot.
+
+// public
+public var timeToDestroy : int = 5;
+
+// private 
+private var time : float = 0f;
+
+function Update () {
+	time += Time.deltaTime; 
+	selfDestruct();
+}
+
+function selfDestruct() {
+	if (time > timeToDestroy) {
+		Destroy(gameObject);
+	}
+}
