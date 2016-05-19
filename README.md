@@ -51,11 +51,11 @@ If access to tracking controller movement for arms, have crosshair (raycaster) b
 
 #### Environment:
 
-Lighting: Sun, maybe street lamps later in project.
+Lighting: Sun
 
-Textured Walls and Floors: Grass, woodchips, brick walls (Going off playground theme).
+Textured Walls and Floors: Grass, Woodchips, Brick Walls (Going off playground theme).
 
-Objects Floating Around: Gravity On/Off Switch for GameObjects that can be manipulated.
+Objects Floating Around: Gravity On/Off Switch for GameObjects That Can Be Manipulated.
 
 List Of Random Objects To Be Put In (Only using free imports from Unity asset store): 
 	Whale,
@@ -70,7 +70,7 @@ List Of Random Objects To Be Put In (Only using free imports from Unity asset st
 	Manakin,
 	etc etc.
 
-When manipulating object (moving, have control), have particle effect or glow on object.
+When Manipulating Object (Moving, Have Control), Have Particle Effect or Glow On Object.
     
     
 #### Sounds:
