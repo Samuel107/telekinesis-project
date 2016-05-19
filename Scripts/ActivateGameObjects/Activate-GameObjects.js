@@ -22,7 +22,7 @@ function Update () {
 function buttonOnOff() {
 	if (buttonActivate1 == false) {
 		// Debug.Log("You turned on button1"); 
-		buttonActivate1 = true; // // button is activated (set true)
+		buttonActivate1 = true; // button is activated (set true)
 		gameObject.GetComponent.<Renderer>().material.color = Color.green; // button turned green for visual confirmation
 		button1GameObject.SetActive(true); // gameObjects now visable
 	}
