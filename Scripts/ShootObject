@@ -1,73 +1,85 @@
 #pragma strict
 
 // This script creates the ability to shoot out objects (objectFired)
-// You can customize the object to include cool effects like explosions on collision.
+// You can customize the object to include cool effects like explosions.
 
 /*
-	NOT FINISHED
-	I will most likely have to get rid of Event Trigger components and add onto previous scripts.
-	Need to find a way to disable trigger events in javascript.
-	
 	Notes:
-		I am start to get very limited with the single input, I am going to start turning off and on scripts for simple input use.
+		I am starting to get very limited with the single input, I am going to start turning off and on scripts for simple input use.
 		The scripts I turned off was moving script and pick up object script.
+		
+		I know the runtime will be huge (if I have alot of "abc" gameObjects) since I am changing each individual script, but I had to do it this way
+		since I used a component event trigger/raycaster (limiting scripting skills). Next project I will do everything from script 
+		(no raycaster or event system/trigger components, everything scripted) so I can easily just change around the raycaster script, 
+		making the time complexity much faster. Then again, now I'm curious that if it was possible to just turn off raycaster, 
+		since we do not use raycaster in shoot ability. Would have saved me alot of work. I'll try it later, but for now, its working.
 */
 
 
-// public/other
+// public
 public var objectFired : GameObject; // put in gameObject to shoot
 public var mainCamera : GameObject; // needs mainCamera transform (finds if null)
 public var cardboardMain : GameObject; // needs cardboardMain to stop movement (so you can rapid fire. finds if null)
-public var objectFiredSpeed : int = 5000; // objectFired speed
-public var throwPowerRemember : int = 1000; // had to manually put in throw power
+public var objectFiredSpeed : int = 2500; // objectFired speed
 
 // private
-private var fireOn : boolean = false;
-// private var moveObjectScript : MoveObject;
-private var movingScript : MovingScript;
+private var fireOn : boolean = false; // turns on when button pushed, starts FireAbility and Update
+private var lockAndLoaded = false; // stops first bullet (first bullet shot when clicking button)
+private var moveObjectScript : MoveObject; // MoveObject script
+private var movingScript : MovingScript; // MovingScript script
+
 
 function Start () {
 	if (mainCamera == null) {
-		mainCamera = GameObject.Find("Main Camera"); // finds Main Camera gameobject
+		mainCamera = GameObject.Find("Main Camera"); // finds Main Camera gameobject if nothing assigned
 	}
-	if (cardboardMain == null) {
-		cardboardMain = GameObject.Find("CardboardMain"); // finds CardboardMain gameobjects
+	if (cardboardMain == null) { 
+		cardboardMain = GameObject.Find("CardboardMain"); // finds CardboardMain gameobject if nothing assigned
 	}
 }
 
 function Update () {
-	if (fireOn && Cardboard.SDK.Triggered == true) {
-		var object = Instantiate(objectFired, mainCamera.transform.position, mainCamera.transform.rotation);
-		object.GetComponent.<Rigidbody>().AddForce(object.transform.forward * objectFiredSpeed);
+	if (fireOn && Cardboard.SDK.Triggered == true) { // gives ability to fire objects
+		if (lockAndLoaded == false) { // stops first bullet from activating (first bullet was hitting control pad when hitting button)
+			lockAndLoaded = true; 
+		}
+		else {
+			var object = Instantiate(objectFired, mainCamera.transform.position, mainCamera.transform.rotation); // spawns our objectFired, gives it camera position and rotation
+			object.GetComponent.<Rigidbody>().AddForce(object.transform.forward * objectFiredSpeed); // Shoots object forward 
+		}
 	}
 }
 
 function FireAbility() {
 	if (fireOn == false) {
 		//Debug.Log("Button 5 On");
-		objectFired.SetActive(true);
-		for (var go : GameObject in GameObject.FindGameObjectsWithTag("abc")) { // turns off pick up and throwing ability
-			//go.GetComponent.<EventTrigger>().enabled = false;
-			//moveObjectScript = go.GetComponent(MoveObject);
-			//moveObjectScript.throwPower = 0;
-			//moveObjectScript.enabled = false;
+		
+		for (var go : GameObject in GameObject.FindGameObjectsWithTag("abc")) { // finds every gameobject with tag "abc" (our moveable objects)
+			//Debug.Log(go);
+			moveObjectScript = go.GetComponent(MoveObject); // grabs MoveObject script from go
+			
+			moveObjectScript.allow = false; // **** Since I had to disable all of MoveObject script (update and certain functions) 
+			                                // moveObjectScript.enabled = false didn't not work because it only disables update().
+											// So I had to create a new bool var in MoveObject script, then add an if case to update and each function.
+											// When false, nothing happens in MoveObject script.
 		}
-		movingScript = cardboardMain.GetComponent(MovingScript);
-		movingScript.enabled = false; // turns off moving script
-		GetComponent.<Renderer>().material.color = Color.green;
-		fireOn = true;
+		
+		movingScript = cardboardMain.GetComponent(MovingScript); // grabs moving script
+		movingScript.enabled = false; // turns off moving script (no event trigger, so easy turn off)
+		GetComponent.<Renderer>().material.color = Color.green; // changes button color to green
+		fireOn = true; // turns update if statement true (gives ability to shoot objectsFired)
 	}
 	else {
 		//Debug.Log("Button 5 Off");
-		objectFired.SetActive(false);
-		for (var go : GameObject in GameObject.FindGameObjectsWithTag("abc")) { // turns on pick up and throw ability
-			//moveObjectScript = go.GetComponent(MoveObject);
-			//moveObjectScript.throwPower = throwPowerRemember;
-			//moveObjectScript.enabled = true;
+		
+		for (var go : GameObject in GameObject.FindGameObjectsWithTag("abc")) { // grabs all gameObjects with tag "abc" (our moveable objects)
+			moveObjectScript = go.GetComponent(MoveObject); // grabs MoveObject script from go
+			moveObjectScript.allow = true; // turns ability to pick up and throw objects on 
 		}
-		movingScript = cardboardMain.GetComponent(MovingScript);
-		movingScript.enabled = true; // turns on moving script
-		GetComponent.<Renderer>().material.color = Color.red;
-		fireOn = false;
+		
+		movingScript = cardboardMain.GetComponent(MovingScript); // grabs movingScript from cardboardMain 
+		movingScript.enabled = true; // turns on update() in movingScript
+		GetComponent.<Renderer>().material.color = Color.red; // changes button color to red
+		fireOn = false; // turns update() if statement false (no more shooting objectFired)
 	}
 }
