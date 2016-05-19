@@ -56,12 +56,13 @@ function FireAbility() {
 		
 		for (var go : GameObject in GameObject.FindGameObjectsWithTag("abc")) { // finds every gameobject with tag "abc" (our moveable objects)
 			//Debug.Log(go);
-			moveObjectScript = go.GetComponent(MoveObject); // grabs MoveObject script from go
+			
+			moveObjectScript = go.GetComponent(MoveObject); // grabs MoveObject script from go, this will error if go does not have MoveObject script
 			
 			moveObjectScript.allow = false; // **** Since I had to disable all of MoveObject script (update and certain functions) 
 			                                // moveObjectScript.enabled = false didn't not work because it only disables update().
-											// So I had to create a new bool var in MoveObject script, then add an if case to update and each function.
-											// When false, nothing happens in MoveObject script.
+							// So I had to create a new bool var in MoveObject script, then add an if case to update and each function.
+							// When false, nothing happens in MoveObject script.
 		}
 		
 		movingScript = cardboardMain.GetComponent(MovingScript); // grabs moving script
