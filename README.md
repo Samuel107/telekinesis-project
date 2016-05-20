@@ -1,7 +1,7 @@
 # Fabulous Nutmeg Project
 Unity Google Cardboard VR Application
 
-A classmate and I decided to start working on creating a virtualy reality application for iPhones/androids. We presented our VR application in one of our IUB classes to demonstarte the uniqueness of virtual reality. I really enjoyed my time working with VR so I decided to continue working on the project in my spare time. I will be posting my Javascript here that I create, along with a short screenshot video to demonstrate the script in Unity. My goal is to create simple, understandable scripts that works with the Google Cardboard magnet input. There are a few things that you need to set up before using these exact scripts which I will not go over (such as using certain components on gameObjects, moving Google Cardboard folder since C# files are compilied before Javascript which can cause conflictions, or hierarchy order of GameObjects). 
+A classmate and I decided to start working on creating a virtualy reality application for iPhones/androids. We presented our VR application in one of our IUB classes to demonstarte the uniqueness of virtual reality. I really enjoyed my time working with VR so I decided to continue working on the project in my spare time. I will be posting mostly Javascript (and some C#) that I created, along with a short screenshot video to demonstrate the script in Unity. My goal is to create simple, understandable scripts that works with the Google Cardboard magnet input. There are a few things that you need to set up before using these exact scripts which I will not go over (such as using certain components on gameObjects, moving Google Cardboard folder since C# files are compilied before Javascript which can cause conflictions, or hierarchy order of GameObjects). 
 
 I recommend using Unity 5.3.3f1 with my scripts as other version will most likely cause errors. The Cardboard SDK for Unity I used is version 0.7.2 (or maybe 0.6.0, no clear cut answer). I will be using the prefabs CardboardMain for headset motion tracking and CardboardReticle for crosshairs/gameObject selection. You get these when importing the Cardboard SDK for Unity (link will be below to download this). Note the Cardboard SDK requires Unity 5.2.1 or later on 5/17/2016. The OS I will mostly be working on is Windows 7/10, but will be importing zip Unity project to Mac to build for iPhones. All testing is done on iPhone 5s.
 https://developers.google.com/cardboard/unity/download
@@ -42,6 +42,7 @@ InGame Control Panel: Allows More Possibilities, Use Cardboard Magnet Click Whil
 	3) Button 3 - Zero Gravity To Moveable Objects
 	4) Button 4 - Reset Scene (It gets messy pretty quick)
 	5) Button 5 - Gives Ability To Shoot Bullet (This turns off pick up and throw and movement abilities)
+	6) Button 6 - Changes Scene
 
 ###### Other Ideas:
 
