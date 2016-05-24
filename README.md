@@ -18,7 +18,7 @@ If anyone would like further explanation or have questions on how I used these s
 
 ## Goal
 
-The main goal of this project is to properly implement working VR scripts into a program. I am not focusing on beautiful visual or audio aspects. This will be just a simple demo to demonstrate off the scripts.
+The main goal of this project is to properly implement working VR scripts into a program. I am not focusing on beautiful visual or audio aspects. This will be just a simple demo to demonstrate the scripts.
 
 The next stage is to use these VR scripts as referrences to create a complete VR application with visual/audio/functionality aspects at 100% complete. This will be another project in the future. I am thinking of developing it for a Oculus Rift. Hopefully I can get my hands on one! I will also be looking for people to collaborate with, whether its code programmers, 3D model artists, or audio makers in this future project. I will post here in the future when I am looking for people. Though I want to get comfortable enough with my skills first, before trying to create a group.
 
