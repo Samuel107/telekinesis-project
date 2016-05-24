@@ -10,7 +10,9 @@ If anyone would like further explanation or have questions on how I used these s
 
 *Edit 5/19/2016*  || I am starting to become very limited with just a single input (cardboard magnit), so either I will make an ingame control panel with buttons (allowing more workarounds) or start making functions with gaze input. 
 
-*Edit 5/23/2016* || I ran out of ideas so I am taking a break with this project until some inspirational ideas hit me in the head. Screenshot videos are coming very soon. Seeing is better then reading after all.
+*Edit 5/23/2016* || I ran out of ideas so I am taking a break with this project until some inspirational ideas hit me in the head. Screenshot videos are coming very soon. Seeing is better then reading after all. *Later This Day* Never mind, got an idea. When in doubt, spawn a black hole (button 7).
+
+
 
 ## Goal
 
@@ -45,6 +47,7 @@ InGame Control Panel: Allows More Possibilities, Use Cardboard Magnet Click Whil
 	4) Button 4 - Reset Scene (It gets messy pretty quick)
 	5) Button 5 - Gives Ability To Shoot Bullet (This turns off pick up and throw and movement abilities)
 	6) Button 6 - Changes Scene
+	7) Button 7 - Spawns Black Hole (All moveable items pulls to it)
 
 ###### Other Ideas:
 
