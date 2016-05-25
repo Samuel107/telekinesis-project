@@ -16,7 +16,7 @@ Also if you do not have visual studios installed (either one that you download w
 
 -
 		
-In each scene, I have a InGame button that you click to move on into the next scene. Each button has a different function, making a loop. My scenes included a very nicely done outerspace skyboxes. These skyboxes are very popular in the unity store. I greatly recommend it and its FREE! Well done Hedgehog Team!
+In each scene, I have a InGame button that you click to move on into the next scene. Each button has a different function that leads you to a different scene, making a loop. My scenes included a very nicely done outerspace skyboxes. These skyboxes are very popular in the unity store. I greatly recommend it and its free! Well done Hedgehog Team.
 
 Link: Skybox Volume 2 (Nebula) - Publisher: Hedgehog Team - https://www.assetstore.unity3d.com/en/#!/content/3392
 		
