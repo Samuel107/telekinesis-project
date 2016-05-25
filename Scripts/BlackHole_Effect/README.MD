@@ -1,4 +1,4 @@
-Summary Of All Scripts:
+Summary Of Scripts:
 
 These scripts are to best create a black hole effect on a gameObject. It will grab all moveable objects and move it towards a object.
 Once the object collides with the black hole, it will freeze that moveable object cords wherever it hit the collider.  
