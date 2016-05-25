@@ -1,15 +1,5 @@
 #pragma strict
 
-/*
-	Movement Script: Moves camera forward when Point click happens twice (pull button down twice).
-
-	If you are having problem with Unknown Identifier: "Cardboard", check this link below.
-	Javascript is complied before C# and since Google Cardboard scripts are C#, you need to move your cardboard scripts 
-	into place before Javascript becomes compilied.
-	http://docs.unity3d.com/Manual/ScriptCompileOrderFolders.html
-	For instance, I moved my cardboard folder into standard assets. Seem to work out fine.
-*/
-
 // public
 public var secondsBetween : float = 2; // seconds in between button pressess (try to keep it fast, you want to avoid picking up objects/throwing them confliction)
 public var walkSpeed : float = 1f; // how fast you walk
