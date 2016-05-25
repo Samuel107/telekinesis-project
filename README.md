@@ -23,7 +23,7 @@ If anyone would like further explanation or have questions on how I used these s
 
 The main goal of this project is to properly implement working VR scripts into a program. I am not focusing on beautiful visual or audio aspects. This will be just a simple demo to demonstrate the scripts.
 
-The next stage is to use these VR scripts as referrences to create a complete VR application with visual/audio/functionality aspects at 100% complete. This will be another project in the future. I will most likely developing it for a Oculus Rift. Hopefully I can get my hands on one. I will also be looking for people to collaborate with, whether its code programmers, 3D model artists, or audio makers in this future project. I will post here in the future when I am looking for people. I want to get comfortable first with my skills, before trying to create a group.
+The next stage is to use these VR scripts as referrences to create a complete VR application while focusing on visual/audio/functionality aspects. This will be another project in the future. I will most likely developing it for a Oculus Rift. Hopefully I can get my hands on one. I will be looking for people to collaborate with, whether its code programmers, 3D model artists, audio makers, or even just creative people in this future project. I will post here when I am looking for people. I want to get comfortable first with my skills, before trying to create a group.
 
 ## Project Layout
 
@@ -58,7 +58,7 @@ InGame Control Panel: Allows More Possibilities, Use Cardboard Magnet Click Whil
 
 Controller Movement With Razer Hydra. *Edit* Asked a fellow classmate about it. Motion tracking with Razor Hydra isn't completely accurate when he tried creating with it (though it was his first time using it). Probably will stick with just headset in this project.
 
-Have crosshair (raycaster) be put on one of the controller. Now you must point your controller to manipulate GameObjects.
+Have crosshair (raycaster) be put on one of the controller. Not headbased choosing, now you must point your controller to manipulate GameObjects.
 
 #### Environment:
 
