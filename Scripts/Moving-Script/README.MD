@@ -1,4 +1,5 @@
 Sixth Script Made:
 
-Allows You To Move Around The Scene
+Moves camera forward when magnet click happens twice quickly (pull button down twice on headset).
 
+If you are having problem with Unknown Identifier: "Cardboard", check this link below. Javascript is complied before C# and since Google Cardboard scripts are C#, you need to move your cardboard scriptsinto place before Javascript becomes compilied. http://docs.unity3d.com/Manual/ScriptCompileOrderFolders.html. For instance, I moved my cardboard folder into standard assets. Seem to work out fine.
