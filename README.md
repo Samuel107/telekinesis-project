@@ -16,7 +16,7 @@ If anyone would like further explanation or have questions on how I used these s
 
 *5/23/2016:* I ran out of ideas so I am taking a break with this project until some inspirational ideas hit me in the head. Screenshot videos are coming very soon. Seeing is better then reading after all. 
 	
-*Three hours later* Never mind, got an idea. When in doubt, spawn a black hole (button 7).
+*Three hours later:* Never mind, got an idea. When in doubt, spawn a black hole (button 7).
 
 -
 
