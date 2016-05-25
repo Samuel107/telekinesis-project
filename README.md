@@ -10,13 +10,13 @@ If anyone would like further explanation or have questions on how I used these s
 
 ###### Edits:
 
-*5/19/2016*  || I am starting to become very limited with just a single input (cardboard magnit), so either I will make an ingame control panel with buttons (allowing more workarounds) or start making functions with gaze input. 
+*5/19/2016:* I am starting to become very limited with just a single input (cardboard magnit), so either I will make an ingame control panel with buttons (allowing more workarounds) or start making functions with gaze input. 
 
 -
 
-*5/23/2016* || I ran out of ideas so I am taking a break with this project until some inspirational ideas hit me in the head. Screenshot videos are coming very soon. Seeing is better then reading after all. 
+*5/23/2016:* I ran out of ideas so I am taking a break with this project until some inspirational ideas hit me in the head. Screenshot videos are coming very soon. Seeing is better then reading after all. 
 	
-*Three hours later* || Never mind, got an idea. When in doubt, spawn a black hole (button 7).
+*Three hours later* Never mind, got an idea. When in doubt, spawn a black hole (button 7).
 
 -
 
