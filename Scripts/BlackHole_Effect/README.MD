@@ -6,9 +6,7 @@ Once the object collides with the black hole, it will freeze that moveable objec
 
 This is NOT time efficient. There are many ways to clean this up to make it run much smoother. But it gives you a basic idea of how to implement a effect like gravity pull. I may come back to this and add orbit on a later date. 
 
--
-
-###### Script Layout:
+##### Script Layout:
 
 BlackHole-Effect - I personally put it on a ingame GameObject button to start everything (this can be changed up to suit ones preference).
 
