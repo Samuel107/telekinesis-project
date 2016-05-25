@@ -1,5 +1,6 @@
 /*
 	Notes About Collision:
+		GO = GameObject
 		This collision is on all moveable objects.
 		When black hole is activated and hits another moveable object (abc tag)
 */
