@@ -1,0 +1,33 @@
+/*
+	This is just a rough example of what I did. I did not make a script for this, I just added most of this stuff to MoveObject.js.
+	Not time efficient, no global time so creating a time1 variable for each GameObject which will run slow.
+	
+	There two safeguards to make it head towards Black Hole
+		1) Time - Every x (updateCollisionTimer in BlackHole_Effect.js) seconds, addedForce to Black Hole.
+		2) Collision With Other GameObjects - 
+
+	Notes About Collision:
+		GO = GameObject
+		This collision is on all moveable objects.
+		When black hole is activated and hits another moveable object (abc tag)
+*/
+
+
+function Update () {
+	if (blackHoleScript.activate) {
+		time1 += Time.deltaTime;
+		if (time1 > blackHoleScript.updateCollisionTimer) {
+			gameObject.GetComponent.<Rigidbody>().velocity = Vector3(0, 0, 0); // Stops all velocity
+			gameObject.GetComponent.<Rigidbody>().AddForce((blackHoleGO.GetComponent.<Transform>().position - gameObject.GetComponent.<Transform>().position) * 10); // pushes towards black hole
+			time1 = 0;
+		}
+	}
+}
+
+function OnCollisionEnter (col : Collision) { // col is the GameObject colliding with this GameObject
+	//Debug.Log(blackHoleScript.activate);
+	if (col.gameObject.tag == "abc" && blackHoleScript.activate) {
+		col.gameObject.GetComponent.<Rigidbody>().velocity = Vector3(0, 0, 0); // Stops all velocity
+		gameObject.GetComponent.<Rigidbody>().AddForce((blackHoleGO.GetComponent.<Transform>().position - gameObject.GetComponent.<Transform>().position) * 10); // pushes towards black hole
+	}
+}
