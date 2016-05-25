@@ -4,8 +4,9 @@ New Notes:
 	Below is the new and old ways, just incase if something useful comes out of the other ways.
 
 Old Notes:
-	This is just a rough example of what I did. I did not make a script for this, I just added most of this stuff to MoveObject.js.
+	This is just a rough example of what I did. I did not make a seperate script for this, I just added these parts to MoveObject.js.
 	Not time efficient, no global time so creating a time1 variable for each GameObject which will run slow.
+	I also made references for easy access to GameObject and Scripts.
 	
 	There two safeguards to make it head towards Black Hole
 		1) Time - Every x (updateCollisionTimer in BlackHole_Effect.js) seconds, addedForce to Black Hole.
