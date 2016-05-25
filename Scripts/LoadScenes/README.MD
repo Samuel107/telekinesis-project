@@ -10,7 +10,7 @@ Straightforward script, though I did this in C# because it was a real pain to ge
 
 Important Note: 
 
-You must do this before you are able to load scenes. File -> Build Settings -> Add Open Scene Button. This will add the scene that you are currently on into your build. 
+You must do this before you are able to load scenes. File -> Build Settings -> Add Open Scene Button. This will add the scene that you are currently on into your build. Do this for each scene you want to load.
 			
 Also if you do not have visual studios installed (either one that you download with or by itself), I had a issue with audiopluginvrunity.dll, using Windows 7. This error causes no audio play on your computer. Though I read that its okay (This info above is from one of the forums). More info on this after I solve this issue for myself, I am not worried about it at the moment. 
 
