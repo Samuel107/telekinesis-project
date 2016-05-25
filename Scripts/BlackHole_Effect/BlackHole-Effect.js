@@ -2,12 +2,10 @@
 
 /*
 
-This script is to best create a black hole effect on a gameObject. It will grab all moveable objects and move towards this object.
-Once the objects collides with the black hole, it will freeze that object in the place where it hit the collider.  
-(I really shouldn't call this a black hole, since it doesn't destroy the game object, but it sounds cooler)
+This script is put on the button to start the whole BlackHole Effect. 
 	
 Notes:
-	This script is for the button to activate the black hole game object. I will have a script on the black hole and moveable objects for collisions.
+	This script is for the button to activate the black hole game object.
 	
 	Problem with moveable objects colliding with other moveable GameObject. With the now misdirect path, it will not head towards the black hole.
 	Will most likely create another collision function on the moveable GameObjects to push it back towards black hole.  
