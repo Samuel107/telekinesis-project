@@ -1,4 +1,9 @@
 /*
+New Notes: 
+	Yeah I kind of said screw the collision and over time addforce, and simply just addForce in update for every moveable GameObject.
+	Below is the new and old ways, just incase if something useful comes out of the other ways.
+
+Old Notes:
 	This is just a rough example of what I did. I did not make a script for this, I just added most of this stuff to MoveObject.js.
 	Not time efficient, no global time so creating a time1 variable for each GameObject which will run slow.
 	
@@ -12,7 +17,22 @@
 		When black hole is activated and hits another moveable object (abc tag)
 */
 
+-
 
+// NEW:
+
+function Update() {
+	if (blackHoleScript.activate) {
+		gameObject.GetComponent.<Rigidbody>().velocity = Vector3(0, 0, 0); // Stops all velocity
+		gameObject.GetComponent.<Rigidbody>().AddForce((blackHoleGO.GetComponent.<Transform>().position - gameObject.GetComponent.<Transform>().position) * blackHoleScript.strengthForce); // pushes towards black hole
+	}
+}
+
+-
+
+// OLD:
+
+/*
 function Update () {
 	if (blackHoleScript.activate) {
 		time1 += Time.deltaTime;
@@ -31,3 +51,4 @@ function OnCollisionEnter (col : Collision) { // col is the GameObject colliding
 		gameObject.GetComponent.<Rigidbody>().AddForce((blackHoleGO.GetComponent.<Transform>().position - gameObject.GetComponent.<Transform>().position) * 10); // pushes towards black hole
 	}
 }
+/*
