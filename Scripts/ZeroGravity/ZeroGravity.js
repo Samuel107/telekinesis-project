@@ -1,7 +1,5 @@
 ﻿#pragma strict
 
-// This Script Activates Zero-Gravity On Certain GameObjects with tag "abc".
-
 //public
 public var rotationSpeed : int = 5; // rotation speed
 
