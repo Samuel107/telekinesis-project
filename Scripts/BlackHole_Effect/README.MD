@@ -1,10 +1,10 @@
 #### Summary Of Scripts:
 
-These scripts are to best create a black hole effect on a gameObject. It will grab all moveable objects and move it towards a object.
+These scripts are to create a black hole effect on a gameObject. It will grab all moveable objects and move it towards a object.
 Once the object collides with the black hole, it will freeze that moveable object cords wherever it hit the collider.  
 (I really shouldn't call this a black hole, since it doesn't destroy the game object, but it sounds cooler)
 
-This is NOT time efficient. There are many ways to clean this up to make it run much smoother. But it gives you a basic idea of how to implement a effect like gravity pull. I may come back to this and add orbit on a later date. 
+This is NOT time efficient. There are many ways to clean this up and make it run smoother. But this gives you a basic idea of how to implement a effect like constant gravity pull onto a object. I may come back to this and clean it up (which it really needs) on a later date. Maybe even add a orbit.
 
 ##### Script Layout:
 
