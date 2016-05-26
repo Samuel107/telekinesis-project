@@ -12,8 +12,6 @@ If anyone would like further explanation or have questions on how I used these s
 
 *5/19/2016:* I am starting to become very limited with just a single input (cardboard magnit), so either I will make an ingame control panel with buttons (allowing more workarounds) or start making functions with focusing on gaze input. 
 
--
-
 *5/23/2016:* Screenshot videos are coming very soon. Seeing is better then reading after all. 
 	
 *5/26/2016:* I ran out of ideas so I am taking a break with this project until some inspirational ideas hit me in the head. I have short gifs up in each readme.md to show off the scripts. 
