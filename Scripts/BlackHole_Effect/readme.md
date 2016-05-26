@@ -13,3 +13,5 @@ BlackHole-Effect - I personally put it on a ingame GameObject button to start ev
 BlackHole-Collision - Put on the Black Hole GameObject. Whatever collides into this GameObject will be frozen in position and rotation.
 
 MoveableGO-Force - Put on all moveable GameObjects.
+
+![Example Video](https://i.gyazo.com/4b603a9529c9719623c6862561415abe.gif)
