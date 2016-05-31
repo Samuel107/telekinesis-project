@@ -56,7 +56,9 @@ InGame Control Panel: Allows More Possibilities, Use Cardboard Magnet Click Whil
 
 ###### Other Ideas:
 
-Controller Movement With Razer Hydra. *Edit* Asked a fellow classmate about it. Motion tracking with Razor Hydra isn't completely accurate when he tried creating with it (though it was his first time using it). Probably will stick with just headset in this project.
+Razer Hydra: 
+
+Using Razer Hydra for Hand Tracking. Asked a fellow classmate about it. Motion tracking with Razor Hydra isn't completely accurate when he tried creating with it (though it was his first time using it). Probably will stick with just headset in this project.
 
 Have crosshair (raycaster) be put on one of the controller. Not headbased choosing, now you must point your controller to manipulate GameObjects.
 
