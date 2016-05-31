@@ -12,7 +12,7 @@ The runtime will be huge (if I have alot of "abc" gameObjects) since I am changi
 
 -
 
-*5/31/2016:* I decided to make this more fun by adding a gernade as the object being fired:
+*5/31/2016:* I decided to make this more fun by adding a grenade as the object being fired that blows up:
 
 ![Example Video](https://gyazo.com/9c85201fadf4b443a48072bd812327c8.gif)
 
