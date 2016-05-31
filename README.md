@@ -16,7 +16,7 @@ If anyone would like further explanation or have questions on how I used these s
 	
 *5/26/2016:* I ran out of ideas so I am taking a break with this project until some inspirational ideas hit me in the head. I have short gifs up in each readme.md to show off the scripts. 
 
-*5/30/2016:* Having some major issues getting it to work on iOS. I will most likely have to back track until it worked, I cannot find any solutions.
+*5/30/2016:* Having some major issues getting it to work on iOS. I will most likely have to back track to a version that worked then continue with the new stuff slowly to find the problem. This will take a while.
 
 
 ## Goal
