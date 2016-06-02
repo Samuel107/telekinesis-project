@@ -49,8 +49,8 @@ InGame Control Panel: Allows More Possibilities, Use Cardboard Magnet Click Whil
 	1) Button 1 - Activate Game Objects In Scene
 	2) Button 2 - Bomb Minigame (My classmate made this, so I will not show code or video of it)
 	3) Button 3 - Zero Gravity To Moveable Objects
-	4) Button 4 - Reset Scene (It gets messy pretty quick)
-	5) Button 5 - Gives Ability To Shoot Bullet (This turns off pick up and throw and movement abilities)
+	4) Button 4 - Reset Scene (The scene gets messy pretty quick)
+	5) Button 5 - Gives Ability To Shoot Bullet/Grenades 
 	6) Button 6 - Changes Scene
 	7) Button 7 - Spawns Black Hole (All moveable items pulls to it)
 
